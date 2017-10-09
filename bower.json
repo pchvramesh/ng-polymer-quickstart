@@ -1,0 +1,23 @@
+{
+  "name": "polymer-sample",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Ramesh Kumar <ramesh@ghriantech.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.1.1",
+    "paper-button": "PolymerElements/paper-button#^2.0.0",
+    "paper-input": "PolymerElements/paper-input#^2.0.2",
+    "paper-toolbar": "PolymerElements/paper-toolbar#^2.0.0"
+  }
+}
