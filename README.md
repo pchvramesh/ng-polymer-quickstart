@@ -1,4 +1,4 @@
-# PolymerSample
+# NG-Polymer QuickStart
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.1.
 
@@ -23,6 +23,16 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
-## Further help
+## Using Polymer Components
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+To install Polymer Components use bower <br>
+Ex:<br>
+    `bower install --save Polymer/paper-toolbar`
+    
+navigate to `src/assets/` <br>
+
+import polymer components in to `elements.html` to use in your project.
+
+## For Further help
+1. https://www.npmjs.com/package/@codebakery/origami
+2. https://www.webcomponents.org 

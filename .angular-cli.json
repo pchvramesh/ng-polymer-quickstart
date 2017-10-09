@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "polymer-sample"
+    "name": "ng-polymer-starter"
   },
   "apps": [
     {
@@ -55,6 +55,6 @@
   },
   "defaults": {
     "styleExt": "scss",
-    "component": {}
+    "prefixInterfaces": false
   }
 }
