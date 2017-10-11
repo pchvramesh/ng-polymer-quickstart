@@ -1,0 +1,20 @@
+<app-drawer-layout>
+
+  <app-drawer slot="drawer">
+    <app-header>
+      <app-toolbar>Getting Started</app-toolbar>
+    </app-header>
+  </app-drawer>
+
+  <app-header-layout>
+    <app-header slot="header" reveals effects="waterfall">
+      <app-toolbar>
+        <paper-icon-button icon="menu" drawer-toggle></paper-icon-button>
+        <div main-title class="title">Title</div>
+        <paper-icon-button icon="icons:exit-to-app" (click)="logOut()" id="logout"></paper-icon-button>
+        <paper-tooltip for="logout">Logout</paper-tooltip>
+      </app-toolbar>
+    </app-header>
+    <router-outlet></router-outlet>
+  </app-header-layout>
+</app-drawer-layout>
