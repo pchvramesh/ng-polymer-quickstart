@@ -1,59 +1,18 @@
 .login-container{
-  width: 25vw;
-  height: 25vw;
-  margin: 25vh auto 0;
+  width: 20vw;
+  height: 20vw;
+  margin: 20vh auto 0;
 }
 paper-card{
   width: 100%;
+  height:100%;
+  padding:1.8em;
   .logo{
     height: 25%;
     width: 100%;
   }
-}
-
-paper-button.custom {
-  --paper-button-ink-color: var(--paper-pink-a200);
-  /* These could also be individually defined for each of the
-    specific css classes, but we'll just do it once as an example */
-  --paper-button-flat-keyboard-focus: {
-    background-color: var(--paper-pink-a200);
-    color: white !important;
+  paper-button{
+    margin: 1.5em 0 0;
+    text-align: center;
   }
-;
-  --paper-button-raised-keyboard-focus: {
-    background-color: var(--paper-pink-a200) !important;
-    color: white !important;
-  }
-;
-}
-
-paper-button.custom:hover {
-  background-color: var(--paper-indigo-100);
-}
-
-paper-button.pink {
-  color: var(--paper-pink-a200);
-}
-
-paper-button.indigo {
-  background-color: var(--paper-indigo-500);
-  color: white;
-  --paper-button-raised-keyboard-focus: {
-    background-color: var(--paper-pink-a200) !important;
-    color: white !important;
-  }
-;
-}
-
-paper-button.green {
-  background-color: var(--paper-green-500);
-  color: white;
-}
-
-paper-button.green[active] {
-  background-color: var(--paper-red-500);
-}
-
-paper-button.disabled {
-  color: white;
 }
